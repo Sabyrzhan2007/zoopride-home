@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Главная — ZooPride</title>
+
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="navbar">
+        <h2 class="logo"><a href="./index.html">ZooPride</a></h2>
+        <nav>
+          <ul>
+            <li><a href="./index.html">ГЛАВНАЯ</a></li>
+            <li><a href="#">О НАС</a></li>
+            <li><a href="../gallery/gallery.html" target="_blank">ГАЛЕРЕЯ</a></li>
+            <li><a href="#">БЛОГ</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="content">
+        <header class="hero-section">
+          <img data-speed=".6" class="hero" src="img/par.png" alt="Alt" />
+          <div class="container">
+            <div data-speed=".75" class="main-header">
+              <h1 class="main-title">Zoo<span>Pride</span></h1>
+            </div>
+          </div>
+        </header>
+
+        <div class="portfolio">
+          <div class="container">
+            <main class="gallery">
+              <div data-speed=".9" class="gallery__left">
+                <img class="gallery__item" src="img/snake.jpg" alt="Alt" />
+                <img class="gallery__item" src="img/capibara.jpg" alt="Alt" />
+
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">Наши друзья</h2>
+                  <p class="text-block__p">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Earum harum est excepturi animi error tenetur cupiditate
+                    necessitatibus libero fugiat doloremque? Saepe tenetur
+                    mollitia suscipit praesentium voluptate amet distinctio,
+                    repellendus eligendi.
+                  </p>
+									<button><a href="../gallery/gallery.html" target="_blank">Button</a></button>
+                </div>
+
+                <img class="gallery__item" src="img/lebed.jpg" alt="Alt" />
+              </div>
+
+              <div data-speed="1.1" class="gallery__right">
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">Немного о нас</h2>
+                  <p class="text-block__p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eum, accusamus. Magnam soluta officia asperiores eveniet a
+                    magni voluptates! Magni laborum, libero delectus consectetur
+                    tempore debitis dolores mollitia possimus exercitationem
+                    nemo!
+                  </p>
+									<button>Button</button>
+                </div>
+
+                <img class="gallery__item" src="img/panda.jpg" alt="Alt" />
+                <img class="gallery__item" src="img/sofa.jpg" alt="Alt" />
+                <img class="gallery__item" src="img/gorilla.jpg" alt="Alt" />
+              </div>
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
